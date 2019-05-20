@@ -52,6 +52,23 @@ rbenv install 2.6.3
 
 This may take a little while, so be patient.
 
+6. Set up your global Ruby version.
+
+```sh
+rbenv global 2.6.3
+```
+
+7. Close your terminal window and open up a new one for your changes to take effect.
+
+### Installing Bundler && Rails
+
+Bundler is our package manager (much like NPM), and (Ruby on) Rails is our back-end framework. Both of these are gems we can install globally.
+
+```sh
+gem install bundler
+gem install rails
+```
+
 ### Installing Pry
 
 After we've installed our version of Ruby, and our Ruby version control manager, it's time to install our runtime developer console. Ruby already comes with **IRB**, but [Pry](https://github.com/pry/pry) has several advantages to it.
